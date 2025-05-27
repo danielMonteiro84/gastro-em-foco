@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ActiveLink } from "../active-link/active-link";
 
 export function Header() {
 	return (
@@ -7,10 +8,10 @@ export function Header() {
 				<div className="flex h-16 items-center justify-between">
 					<Link href="/">Logo</Link>
 					<nav className="flex items-center gap-6">
-						<Link href="/">Home</Link>
-						<Link href="/sobre">Sobre</Link>
-						<Link href="/blog">Blog</Link>
-						<Link href="/contato">Contato</Link>
+						<ActiveLink href="/">Início</ActiveLink>
+						<ActiveLink href="/sobre">Sobre</ActiveLink>
+						<ActiveLink href="/blog">Blog</ActiveLink>
+						<ActiveLink href="/contato">Contato</ActiveLink>
 						<button className="bg-white" type="button">
 							Entrar
 						</button>
