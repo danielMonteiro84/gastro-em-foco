@@ -16,7 +16,7 @@ export const ActiveLink = ({ children, href, ...rest }: ActiveLinkProps) => {
 		<Link
 			href={href}
 			className={`text-sm font-medium transition-colors hover:text-blue-500' ${
-				isCurrentPath ? "text-prohealth-primaryDark" : "text-muted-foreground"
+				isCurrentPath ? "text-secundary font-bold" : "text-secundary"
 			}`}
 		>
 			{children}

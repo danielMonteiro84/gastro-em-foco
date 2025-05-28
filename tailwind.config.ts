@@ -8,8 +8,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				prohealth: {
-					light: "#EAF4FB",
+				gastroemfoco: {
+					background: "#F4FEFF",
 					lighter: "#D6E9F7",
 					primary: "#2A74B1",
 					primaryDark: "#1F3A60",
@@ -19,15 +19,15 @@ module.exports = {
 					gray: "#7A8C9A",
 					grayDark: "#4A5A6A",
 				},
-				dark: "#102A43",
+				primary: "#172048",
+				secundary: "#C4C4C4",
 			},
 		},
 		fontFamily: {
 			sans: ["Poppins", "sans-serif"],
 		},
 		backgroundImage: {
-			"prohealth-gradient":
-				"linear-gradient(to bottom right, #EAF6FB, #CDE6F5, #B5D4EC)",
+			"gastro-gradient": "linear-gradient(90deg, #56e0e0 0%, #007299 100%)",
 		},
 		fontWeight: {
 			normal: "400",
