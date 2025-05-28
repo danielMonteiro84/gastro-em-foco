@@ -19,11 +19,11 @@ module.exports = {
 					gray: "#7A8C9A",
 					grayDark: "#4A5A6A",
 				},
-				dark: "#102A43", // aqui o text-dark que causou o erro
+				dark: "#102A43",
 			},
 		},
 		fontFamily: {
-			sans: ["Poppins", "sans-serif"], // ou 'Montserrat', 'Inter'
+			sans: ["Poppins", "sans-serif"],
 		},
 		backgroundImage: {
 			"prohealth-gradient":

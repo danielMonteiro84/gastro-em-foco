@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-	@apply font-sans text-dark;
+	@apply font-sans text-prohealth-grayDark;
 }
